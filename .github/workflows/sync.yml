@@ -32,4 +32,4 @@ jobs:
           WITHINGS_CLIENT_SECRET: ${{ secrets.WITHINGS_CLIENT_SECRET }}
           WITHINGS_CODE: ${{ secrets.WITHINGS_CODE }}
         run: |
-          python sync.py --garmin || python withings_sync.py --garmin
+          python sync.py
