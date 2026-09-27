@@ -31,4 +31,4 @@ jobs:
           WITHINGS_CLIENT_SECRET: ${{ secrets.WITHINGS_CLIENT_SECRET }}
           WITHINGS_CODE: ${{ secrets.WITHINGS_CODE }}
         run: |
-          python sync.py --code "${{ secrets.WITHINGS_CODE }}" || python sync.py "${{ secrets.WITHINGS_CODE }}
+          python sync.py
